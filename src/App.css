@@ -40,3 +40,9 @@
 .read-the-docs {
   color: #888;
 }
+
+.textNode {
+  border: 2px dashed rgb(246, 180, 180);
+  font-size: large;
+  padding: 5px;
+}
