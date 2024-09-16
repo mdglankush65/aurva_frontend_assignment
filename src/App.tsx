@@ -28,7 +28,7 @@ export default function App() {
   const [categoriesVisible, setCategoriesVisible] = useState(false);
   const [mealDetails, setMealDetails] = useState<Meal | null>(null);
 
-  const handleClick = async (node:CustomNodeType) => {
+  const handleClick = async (_event: React.MouseEvent, node:CustomNodeType) => {
     console.log(node);
     // =======================================================================================================
     if (node.id === "e") {
