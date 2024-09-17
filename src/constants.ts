@@ -97,3 +97,7 @@ export interface MealType {
   strMeal: string;
   strMealThumb: string;
 }
+
+export type SetNodesType = React.Dispatch<React.SetStateAction<CustomNodeType[]>>;
+export type SetEdgesType = React.Dispatch<React.SetStateAction<EdgeTypeCustom[]>>;
+export type SetMealDetailsType = React.Dispatch<React.SetStateAction<Meal | null>>;
